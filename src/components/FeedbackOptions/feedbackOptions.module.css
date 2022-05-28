@@ -1,0 +1,32 @@
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.element:not(:last-child) {
+    margin-right: 15px;
+}
+
+.button {
+    padding: 5px 12px;
+    font-size: 18px;
+    cursor: pointer;
+    text-transform: capitalize;
+    background-color: #ffffe6;
+    border: 2px solid #ffcce0;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+    font-family: fantasy;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #ffcce0;
+    border: 2px solid #ffffe6;
+}
+
